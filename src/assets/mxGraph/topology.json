@@ -1,0 +1,3220 @@
+{
+    "mxGraphModel": {
+        "_attributes": {
+            "dx": "2553",
+            "dy": "708",
+            "grid": "1",
+            "gridSize": "10",
+            "guides": "1",
+            "tooltips": "1",
+            "connect": "1",
+            "arrows": "1",
+            "fold": "1",
+            "page": "1",
+            "pageScale": "1",
+            "pageWidth": "1169",
+            "pageHeight": "827",
+            "math": "0",
+            "shadow": "0"
+        },
+        "root": {
+            "mxCell": [
+                {
+                    "_attributes": {
+                        "id": "0"
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "1",
+                        "parent": "0"
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "_rPtadvKJ1RK33kOPoWB-1",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "330",
+                            "y": "140",
+                            "width": "120",
+                            "height": "60",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "_rPtadvKJ1RK33kOPoWB-2",
+                        "value": "",
+                        "style": "whiteSpace=wrap;html=1;aspect=fixed;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "630",
+                            "y": "200",
+                            "width": "80",
+                            "height": "80",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "_rPtadvKJ1RK33kOPoWB-3",
+                        "value": "Label",
+                        "style": "endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;",
+                        "parent": "1",
+                        "source": "_rPtadvKJ1RK33kOPoWB-1",
+                        "target": "_rPtadvKJ1RK33kOPoWB-2",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "relative": "1",
+                            "as": "geometry"
+                        },
+                        "mxPoint": [
+                            {
+                                "_attributes": {
+                                    "x": "450",
+                                    "y": "300",
+                                    "as": "sourcePoint"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "610",
+                                    "y": "300",
+                                    "as": "targetPoint"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "_rPtadvKJ1RK33kOPoWB-4",
+                        "value": "Label",
+                        "style": "edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;",
+                        "parent": "_rPtadvKJ1RK33kOPoWB-3",
+                        "connectable": "0",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "relative": "1",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "_rPtadvKJ1RK33kOPoWB-5",
+                        "value": "Source",
+                        "style": "edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;",
+                        "parent": "_rPtadvKJ1RK33kOPoWB-3",
+                        "connectable": "0",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "-1",
+                            "relative": "1",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "_rPtadvKJ1RK33kOPoWB-6",
+                        "value": "Target",
+                        "style": "edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;",
+                        "parent": "_rPtadvKJ1RK33kOPoWB-3",
+                        "connectable": "0",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1",
+                            "relative": "1",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-1",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;arcSize=1;gradientDirection=north;shadow=0;glass=0;gradientColor=#ffffff;labelPadding=0;spacingLeft=0;spacing=4;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "-10",
+                            "y": "40",
+                            "width": "1440",
+                            "height": "736",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-2",
+                        "value": "ABC Client&nbsp; - POC Environment",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "-10",
+                            "y": "2",
+                            "width": "245",
+                            "height": "30",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-3",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=1;fillColor=#EEEEEE;gradientDirection=north;dashed=1;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "30",
+                            "y": "80",
+                            "width": "830",
+                            "height": "636",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-4",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=2;dashed=1;strokeWidth=2;fillColor=#F2F7FF;gradientDirection=north;perimeterSpacing=0;sketch=0;dashPattern=1 1;strokeColor=#00BEF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "290",
+                            "y": "110",
+                            "width": "440",
+                            "height": "582",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-5",
+                        "value": "<i><b>App Server</b></i><br>(<i>UE2POC38APP09</i>)<br><span style=\"color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px\">%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22App%20Server%22%20style%3D%22verticalLabelPosition%3Dbottom%3Bhtml%3D1%3BverticalAlign%3Dtop%3Balign%3Dcenter%3BstrokeColor%3Dnone%3BfillColor%3D%2300BEF2%3Bshape%3Dmxgraph.azure.virtual_machine%3Bshadow%3D0%3Bglass%3D0%3Bdashed%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22160%22%20y%3D%22160%22%20width%3D%22110%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E</span>",
+                        "style": "verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;shadow=0;glass=0;dashed=1;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "545",
+                            "y": "320",
+                            "width": "130",
+                            "height": "100",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-6",
+                        "value": "<b><i>Virtual Network</i></b> <i>(UE2-POC-38-VNET)</i> <b><i>Address Prefix</i></b> <i>(172.18.228.0/23)</i>",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;fontSize=13;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "290",
+                            "y": "92",
+                            "width": "430",
+                            "height": "20",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-7",
+                        "value": "<i><b>DB Server</b></i><br>(<i>UE2POC38APP19</i>)<br><span style=\"color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px\">%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22App%20Server%22%20style%3D%22verticalLabelPosition%3Dbottom%3Bhtml%3D1%3BverticalAlign%3Dtop%3Balign%3Dcenter%3BstrokeColor%3Dnone%3BfillColor%3D%2300BEF2%3Bshape%3Dmxgraph.azure.virtual_machine%3Bshadow%3D0%3Bglass%3D0%3Bdashed%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22160%22%20y%3D%22160%22%20width%3D%22110%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E</span>",
+                        "style": "verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;shadow=0;glass=0;dashed=1;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "320",
+                            "y": "320",
+                            "width": "130",
+                            "height": "100",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-8",
+                        "value": "<i><b>Insights DB Server</b></i><br>(UE2POC38DATAI03)<br><span style=\"color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px\">%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22App%20Server%22%20style%3D%22verticalLabelPosition%3Dbottom%3Bhtml%3D1%3BverticalAlign%3Dtop%3Balign%3Dcenter%3BstrokeColor%3Dnone%3BfillColor%3D%2300BEF2%3Bshape%3Dmxgraph.azure.virtual_machine%3Bshadow%3D0%3Bglass%3D0%3Bdashed%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22160%22%20y%3D%22160%22%20width%3D%22110%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E</span>",
+                        "style": "verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;shadow=0;glass=0;dashed=1;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "320",
+                            "y": "132.2",
+                            "width": "130",
+                            "height": "100",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-9",
+                        "value": "<i><b>Producer App Server</b></i><br>(<i>UE2POC38CC03</i>)<br><span style=\"color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px\">%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22App%20Server%22%20style%3D%22verticalLabelPosition%3Dbottom%3Bhtml%3D1%3BverticalAlign%3Dtop%3Balign%3Dcenter%3BstrokeColor%3Dnone%3BfillColor%3D%2300BEF2%3Bshape%3Dmxgraph.azure.virtual_machine%3Bshadow%3D0%3Bglass%3D0%3Bdashed%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22160%22%20y%3D%22160%22%20width%3D%22110%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E</span>",
+                        "style": "verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;shadow=0;glass=0;dashed=1;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "555",
+                            "y": "530",
+                            "width": "120",
+                            "height": "100",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-10",
+                        "value": "<i><b>Octopus Server</b></i><br>(<i>UE2POC38OCT01</i>)<br><span style=\"color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px\">%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22App%20Server%22%20style%3D%22verticalLabelPosition%3Dbottom%3Bhtml%3D1%3BverticalAlign%3Dtop%3Balign%3Dcenter%3BstrokeColor%3Dnone%3BfillColor%3D%2300BEF2%3Bshape%3Dmxgraph.azure.virtual_machine%3Bshadow%3D0%3Bglass%3D0%3Bdashed%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22160%22%20y%3D%22160%22%20width%3D%22110%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E</span>",
+                        "style": "verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;shadow=0;glass=0;dashed=1;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "320",
+                            "y": "520",
+                            "width": "130",
+                            "height": "100",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-11",
+                        "value": "",
+                        "style": "endArrow=classic;startArrow=classic;html=1;fontSize=13;exitX=1.012;exitY=0.887;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;",
+                        "parent": "1",
+                        "source": "JRmProH149STGmIK2Tsz-7",
+                        "target": "JRmProH149STGmIK2Tsz-9",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "width": "50",
+                            "height": "50",
+                            "relative": "1",
+                            "as": "geometry"
+                        },
+                        "mxPoint": [
+                            {
+                                "_attributes": {
+                                    "x": "471",
+                                    "y": "391",
+                                    "as": "sourcePoint"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "564.35",
+                                    "y": "572.9434782608697",
+                                    "as": "targetPoint"
+                                }
+                            }
+                        ],
+                        "Array": {
+                            "_attributes": {
+                                "as": "points"
+                            },
+                            "mxPoint": [
+                                {
+                                    "_attributes": {
+                                        "x": "509",
+                                        "y": "409"
+                                    }
+                                },
+                                {
+                                    "_attributes": {
+                                        "x": "509",
+                                        "y": "580"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-12",
+                        "value": "",
+                        "style": "endArrow=classic;startArrow=classic;html=1;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;",
+                        "parent": "1",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "width": "50",
+                            "height": "50",
+                            "relative": "1",
+                            "as": "geometry"
+                        },
+                        "mxPoint": [
+                            {
+                                "_attributes": {
+                                    "x": "448",
+                                    "y": "182.20000000000016",
+                                    "as": "sourcePoint"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "548",
+                                    "y": "340",
+                                    "as": "targetPoint"
+                                }
+                            }
+                        ],
+                        "Array": {
+                            "_attributes": {
+                                "as": "points"
+                            },
+                            "mxPoint": [
+                                {
+                                    "_attributes": {
+                                        "x": "498",
+                                        "y": "182"
+                                    }
+                                },
+                                {
+                                    "_attributes": {
+                                        "x": "498",
+                                        "y": "340"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-13",
+                        "value": "",
+                        "style": "aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database.svg;glass=0;dashPattern=1 1;labelBackgroundColor=#00FF00;sketch=0;strokeColor=#00BEF2;strokeWidth=2;fillColor=#FF0080;gradientColor=none;fontSize=13;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "330",
+                            "y": "200",
+                            "width": "30",
+                            "height": "22.2",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-14",
+                        "value": "",
+                        "style": "aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database.svg;glass=0;dashPattern=1 1;labelBackgroundColor=#00FF00;sketch=0;strokeColor=#00BEF2;strokeWidth=2;fillColor=#FF0080;gradientColor=none;fontSize=13;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "330",
+                            "y": "390.9",
+                            "width": "30",
+                            "height": "22.2",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-15",
+                        "value": "",
+                        "style": "html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_deployment_manager;shadow=0;glass=0;dashed=1;dashPattern=1 1;labelBackgroundColor=#00FF00;sketch=0;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "320",
+                            "y": "581.5",
+                            "width": "48",
+                            "height": "38.5",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-16",
+                        "style": "edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;",
+                        "parent": "1",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "relative": "1",
+                            "as": "geometry"
+                        },
+                        "mxPoint": [
+                            {
+                                "_attributes": {
+                                    "x": "414",
+                                    "y": "440",
+                                    "as": "sourcePoint"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "414",
+                                    "y": "440",
+                                    "as": "targetPoint"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-17",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=#00FF00;sketch=0;strokeColor=#00BEF2;strokeWidth=2;fillColor=#E3E9F2;gradientColor=none;fontSize=13;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "750",
+                            "y": "340",
+                            "width": "90",
+                            "height": "60",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-18",
+                        "value": "<b><i>Public IP<br>Address<br></i></b>",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;fontSize=13;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "750",
+                            "y": "360",
+                            "width": "90",
+                            "height": "20",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-19",
+                        "value": "",
+                        "style": "endArrow=classic;html=1;fontSize=13;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;",
+                        "parent": "1",
+                        "source": "JRmProH149STGmIK2Tsz-17",
+                        "target": "JRmProH149STGmIK2Tsz-5",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "width": "50",
+                            "height": "50",
+                            "relative": "1",
+                            "as": "geometry"
+                        },
+                        "mxPoint": [
+                            {
+                                "_attributes": {
+                                    "x": "500",
+                                    "y": "430",
+                                    "as": "sourcePoint"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "550",
+                                    "y": "380",
+                                    "as": "targetPoint"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-20",
+                        "style": "edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;",
+                        "parent": "1",
+                        "source": "JRmProH149STGmIK2Tsz-4",
+                        "target": "JRmProH149STGmIK2Tsz-4",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "relative": "1",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-21",
+                        "value": "",
+                        "style": "endArrow=classic;startArrow=classic;html=1;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;",
+                        "parent": "1",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "width": "50",
+                            "height": "50",
+                            "relative": "1",
+                            "as": "geometry"
+                        },
+                        "mxPoint": [
+                            {
+                                "_attributes": {
+                                    "x": "450",
+                                    "y": "375",
+                                    "as": "sourcePoint"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "545",
+                                    "y": "375",
+                                    "as": "targetPoint"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-22",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=2;dashed=1;strokeWidth=2;fillColor=#F2F7FF;gradientDirection=north;perimeterSpacing=0;sketch=0;dashPattern=1 1;strokeColor=#00BEF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "75",
+                            "y": "112",
+                            "width": "165",
+                            "height": "158",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-23",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=#00FF00;sketch=0;strokeWidth=2;gradientColor=none;fontSize=13;fillColor=#DADCF2;strokeColor=#CBCDF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "97.5",
+                            "y": "129.4",
+                            "width": "122.5",
+                            "height": "90.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-24",
+                        "value": "",
+                        "style": "aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Search.svg;rounded=1;shadow=0;glass=0;labelBackgroundColor=#00FF00;sketch=0;strokeColor=#00BEF2;strokeWidth=2;fillColor=#DADCF2;gradientColor=none;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "133.6",
+                            "y": "149.4",
+                            "width": "52.8",
+                            "height": "52.8",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-25",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=2;dashed=1;strokeWidth=2;fillColor=#F2F7FF;gradientDirection=north;perimeterSpacing=0;sketch=0;dashPattern=1 1;strokeColor=#00BEF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "75",
+                            "y": "300",
+                            "width": "165",
+                            "height": "170",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-26",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=#00FF00;sketch=0;strokeWidth=2;gradientColor=none;fontSize=13;fillColor=#DADCF2;strokeColor=#CBCDF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "97.5",
+                            "y": "317.4",
+                            "width": "122.5",
+                            "height": "92.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-27",
+                        "value": "",
+                        "style": "aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Service_Bus_Relay.svg;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#CBCDF2;strokeWidth=2;fillColor=#EEEEEE;gradientColor=#ffffff;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "134",
+                            "y": "338",
+                            "width": "50",
+                            "height": "50",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-28",
+                        "style": "edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontSize=13;",
+                        "parent": "1",
+                        "source": "JRmProH149STGmIK2Tsz-22",
+                        "target": "JRmProH149STGmIK2Tsz-22",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "relative": "1",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-30",
+                        "value": "<b>Azure Search Service</b><br>(UE2POC38SS01)",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;fontSize=13;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "90",
+                            "y": "232",
+                            "width": "140",
+                            "height": "28",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-31",
+                        "value": "<b>Azure Service Bus</b><br>(UE2-POC-38-SERVICEHUB09)",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;fontSize=13;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "90",
+                            "y": "420",
+                            "width": "140",
+                            "height": "28",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-32",
+                        "value": "",
+                        "style": "endArrow=classic;startArrow=classic;html=1;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;",
+                        "parent": "1",
+                        "source": "JRmProH149STGmIK2Tsz-22",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "width": "50",
+                            "height": "50",
+                            "relative": "1",
+                            "as": "geometry"
+                        },
+                        "mxPoint": [
+                            {
+                                "_attributes": {
+                                    "x": "500",
+                                    "y": "390",
+                                    "as": "sourcePoint"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "286",
+                                    "y": "190",
+                                    "as": "targetPoint"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-33",
+                        "value": "",
+                        "style": "endArrow=classic;startArrow=classic;html=1;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.47;entryDx=0;entryDy=0;entryPerimeter=0;",
+                        "parent": "1",
+                        "source": "JRmProH149STGmIK2Tsz-25",
+                        "target": "JRmProH149STGmIK2Tsz-4",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "width": "50",
+                            "height": "50",
+                            "relative": "1",
+                            "as": "geometry"
+                        },
+                        "mxPoint": [
+                            {
+                                "_attributes": {
+                                    "x": "240",
+                                    "y": "400",
+                                    "as": "sourcePoint"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "290",
+                                    "y": "350",
+                                    "as": "targetPoint"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-34",
+                        "value": "",
+                        "style": "fillColor=#28A8E0;verticalLabelPosition=bottom;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.dns_security;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;fontSize=13;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "934",
+                            "y": "490",
+                            "width": "66",
+                            "height": "60",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-35",
+                        "value": "",
+                        "style": "edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;curved=1;",
+                        "parent": "1",
+                        "source": "JRmProH149STGmIK2Tsz-37",
+                        "target": "JRmProH149STGmIK2Tsz-34",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "relative": "1",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-36",
+                        "value": "",
+                        "style": "edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;",
+                        "parent": "1",
+                        "source": "JRmProH149STGmIK2Tsz-37",
+                        "target": "JRmProH149STGmIK2Tsz-18",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "relative": "1",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-37",
+                        "value": "Internet",
+                        "style": "html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.cloud;rounded=1;glass=0;sketch=0;fillColor=#EEEEEE;gradientColor=#ffffff;fontSize=13;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "932",
+                            "y": "345",
+                            "width": "68",
+                            "height": "45",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-38",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=1;fillColor=#EEEEEE;gradientDirection=north;dashed=1;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1080",
+                            "y": "80",
+                            "width": "280",
+                            "height": "310",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-39",
+                        "value": "Products",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1080",
+                            "y": "46",
+                            "width": "70",
+                            "height": "30",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-42",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "434.7",
+                            "y": "122.80000000000001",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-47",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/Koloria-Icon-Set/32/Warning.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "429",
+                            "y": "510",
+                            "width": "30",
+                            "height": "30",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-50",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/splashyIcons/error.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "657",
+                            "y": "306",
+                            "width": "26",
+                            "height": "26",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-51",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/24x24-free-application-icons/24/Error.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "659",
+                            "y": "520",
+                            "width": "24",
+                            "height": "24",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-52",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "433.7",
+                            "y": "309.4",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-53",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "720",
+                            "y": "100.20000000000002",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-54",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "225",
+                            "y": "100.20000000000002",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-55",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "225",
+                            "y": "294.8",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-57",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=1;gradientDirection=north;dashed=1;labelBackgroundColor=none;fillColor=#EEEEEE;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1080",
+                            "y": "450",
+                            "width": "280",
+                            "height": "266",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-58",
+                        "value": "Resource/Product Details",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1080",
+                            "y": "413.1",
+                            "width": "220",
+                            "height": "30",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-59",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=2;dashed=1;strokeWidth=2;fillColor=#F2F7FF;gradientDirection=north;perimeterSpacing=0;sketch=0;dashPattern=1 1;strokeColor=#00BEF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1100",
+                            "y": "91",
+                            "width": "240",
+                            "height": "39",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-60",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=2;dashed=1;strokeWidth=2;fillColor=#F2F7FF;gradientDirection=north;perimeterSpacing=0;sketch=0;dashPattern=1 1;strokeColor=#00BEF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1100",
+                            "y": "191",
+                            "width": "240",
+                            "height": "39",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-61",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=2;dashed=1;strokeWidth=2;fillColor=#F2F7FF;gradientDirection=north;perimeterSpacing=0;sketch=0;dashPattern=1 1;strokeColor=#00BEF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1100",
+                            "y": "140",
+                            "width": "240",
+                            "height": "40",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-62",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=2;dashed=1;strokeWidth=2;fillColor=#F2F7FF;gradientDirection=north;perimeterSpacing=0;sketch=0;dashPattern=1 1;strokeColor=#00BEF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1100",
+                            "y": "241",
+                            "width": "240",
+                            "height": "39",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-63",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=2;dashed=1;strokeWidth=2;fillColor=#F2F7FF;gradientDirection=north;perimeterSpacing=0;sketch=0;dashPattern=1 1;strokeColor=#00BEF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1100",
+                            "y": "289.6",
+                            "width": "240",
+                            "height": "38.4",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-64",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=2;dashed=1;strokeWidth=2;fillColor=#F2F7FF;gradientDirection=north;perimeterSpacing=0;sketch=0;dashPattern=1 1;strokeColor=#00BEF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1100",
+                            "y": "340",
+                            "width": "240",
+                            "height": "40",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-65",
+                        "value": "",
+                        "style": "html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.folder;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1120",
+                            "y": "100",
+                            "width": "30",
+                            "height": "20",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-66",
+                        "value": "",
+                        "style": "html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.calculator;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1120",
+                            "y": "149.4",
+                            "width": "30",
+                            "height": "25",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-68",
+                        "value": "",
+                        "style": "html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1120",
+                            "y": "196",
+                            "width": "30",
+                            "height": "24",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-69",
+                        "value": "",
+                        "style": "html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.eye;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1120",
+                            "y": "299",
+                            "width": "31",
+                            "height": "21",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-70",
+                        "value": "",
+                        "style": "html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.repeat;pointerEvents=1;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1120",
+                            "y": "348",
+                            "width": "30",
+                            "height": "24",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-71",
+                        "value": "",
+                        "style": "html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.box;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1120",
+                            "y": "245",
+                            "width": "30",
+                            "height": "30",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-72",
+                        "value": "Claims",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1169",
+                            "y": "96",
+                            "width": "141",
+                            "height": "28",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-73",
+                        "value": "Billing",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1169",
+                            "y": "146.4",
+                            "width": "141",
+                            "height": "28",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-74",
+                        "value": "Policy",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1169",
+                            "y": "197.10000000000002",
+                            "width": "141",
+                            "height": "28",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-75",
+                        "value": "Party",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1169",
+                            "y": "247.00000000000003",
+                            "width": "141",
+                            "height": "28",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-76",
+                        "value": "Insights",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1169",
+                            "y": "294.79999999999995",
+                            "width": "141",
+                            "height": "28",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-77",
+                        "value": "Producers",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1169",
+                            "y": "345.99999999999994",
+                            "width": "141",
+                            "height": "28",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-78",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1310",
+                            "y": "99.20000000000002",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-79",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1310",
+                            "y": "148.70000000000002",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-80",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1310",
+                            "y": "200",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-81",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1310",
+                            "y": "248.7",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-82",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1310",
+                            "y": "297.4",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-83",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1310",
+                            "y": "352.4",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-84",
+                        "value": "Azure Resources",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "30",
+                            "y": "46",
+                            "width": "245",
+                            "height": "30",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-85",
+                        "value": "<font style=\"font-size: 14px\">To know more details about resource or product, please select any product or resource.</font>",
+                        "style": "text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#F2F7FF;strokeColor=#00BEF2;dashed=1;dashPattern=1 1;labelPadding=2;spacingLeft=5;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1090",
+                            "y": "460",
+                            "width": "260",
+                            "height": "245",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-86",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "330",
+                            "y": "140",
+                            "width": "120",
+                            "height": "60",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-87",
+                        "value": "",
+                        "style": "whiteSpace=wrap;html=1;aspect=fixed;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "630",
+                            "y": "200",
+                            "width": "80",
+                            "height": "80",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-88",
+                        "value": "Label",
+                        "style": "endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;",
+                        "parent": "1",
+                        "source": "JRmProH149STGmIK2Tsz-86",
+                        "target": "JRmProH149STGmIK2Tsz-87",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "relative": "1",
+                            "as": "geometry"
+                        },
+                        "mxPoint": [
+                            {
+                                "_attributes": {
+                                    "x": "450",
+                                    "y": "300",
+                                    "as": "sourcePoint"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "610",
+                                    "y": "300",
+                                    "as": "targetPoint"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-89",
+                        "value": "Label",
+                        "style": "edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;",
+                        "parent": "JRmProH149STGmIK2Tsz-88",
+                        "connectable": "0",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "relative": "1",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-90",
+                        "value": "Source",
+                        "style": "edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;",
+                        "parent": "JRmProH149STGmIK2Tsz-88",
+                        "connectable": "0",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "-1",
+                            "relative": "1",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-91",
+                        "value": "Target",
+                        "style": "edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;",
+                        "parent": "JRmProH149STGmIK2Tsz-88",
+                        "connectable": "0",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1",
+                            "relative": "1",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-92",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;arcSize=1;gradientDirection=north;shadow=0;glass=0;gradientColor=#ffffff;labelPadding=0;spacingLeft=0;spacing=4;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "-10",
+                            "y": "40",
+                            "width": "1440",
+                            "height": "736",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-93",
+                        "value": "ABC Client&nbsp; - POC Environment",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "-10",
+                            "y": "2",
+                            "width": "245",
+                            "height": "30",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-94",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=1;fillColor=#EEEEEE;gradientDirection=north;dashed=1;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "30",
+                            "y": "80",
+                            "width": "830",
+                            "height": "636",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-95",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=2;dashed=1;strokeWidth=2;fillColor=#F2F7FF;gradientDirection=north;perimeterSpacing=0;sketch=0;dashPattern=1 1;strokeColor=#00BEF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "290",
+                            "y": "110",
+                            "width": "440",
+                            "height": "582",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-96",
+                        "value": "<i><b>App Server</b></i><br>(<i>UE2POC38APP09</i>)<br><span style=\"color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px\">%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22App%20Server%22%20style%3D%22verticalLabelPosition%3Dbottom%3Bhtml%3D1%3BverticalAlign%3Dtop%3Balign%3Dcenter%3BstrokeColor%3Dnone%3BfillColor%3D%2300BEF2%3Bshape%3Dmxgraph.azure.virtual_machine%3Bshadow%3D0%3Bglass%3D0%3Bdashed%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22160%22%20y%3D%22160%22%20width%3D%22110%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E</span>",
+                        "style": "verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;shadow=0;glass=0;dashed=1;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "545",
+                            "y": "320",
+                            "width": "130",
+                            "height": "100",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-97",
+                        "value": "<b><i>Virtual Network</i></b> <i>(UE2-POC-38-VNET)</i> <b><i>Address Prefix</i></b> <i>(172.18.228.0/23)</i>",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;fontSize=13;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "290",
+                            "y": "87",
+                            "width": "430",
+                            "height": "20",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-98",
+                        "value": "<i><b>DB Server</b></i><br>(<i>UE2POC38APP19</i>)<br><span style=\"color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px\">%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22App%20Server%22%20style%3D%22verticalLabelPosition%3Dbottom%3Bhtml%3D1%3BverticalAlign%3Dtop%3Balign%3Dcenter%3BstrokeColor%3Dnone%3BfillColor%3D%2300BEF2%3Bshape%3Dmxgraph.azure.virtual_machine%3Bshadow%3D0%3Bglass%3D0%3Bdashed%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22160%22%20y%3D%22160%22%20width%3D%22110%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E</span>",
+                        "style": "verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;shadow=0;glass=0;dashed=1;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "320",
+                            "y": "320",
+                            "width": "130",
+                            "height": "100",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-99",
+                        "value": "<i><b>Insights DB Server</b></i><br>(UE2POC38DATAI03)<br><span style=\"color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px\">%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22App%20Server%22%20style%3D%22verticalLabelPosition%3Dbottom%3Bhtml%3D1%3BverticalAlign%3Dtop%3Balign%3Dcenter%3BstrokeColor%3Dnone%3BfillColor%3D%2300BEF2%3Bshape%3Dmxgraph.azure.virtual_machine%3Bshadow%3D0%3Bglass%3D0%3Bdashed%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22160%22%20y%3D%22160%22%20width%3D%22110%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E</span>",
+                        "style": "verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;shadow=0;glass=0;dashed=1;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "320",
+                            "y": "132.2",
+                            "width": "130",
+                            "height": "100",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-100",
+                        "value": "<i><b>Producer App Server</b></i><br>(<i>UE2POC38CC03</i>)<br><span style=\"color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px\">%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22App%20Server%22%20style%3D%22verticalLabelPosition%3Dbottom%3Bhtml%3D1%3BverticalAlign%3Dtop%3Balign%3Dcenter%3BstrokeColor%3Dnone%3BfillColor%3D%2300BEF2%3Bshape%3Dmxgraph.azure.virtual_machine%3Bshadow%3D0%3Bglass%3D0%3Bdashed%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22160%22%20y%3D%22160%22%20width%3D%22110%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E</span>",
+                        "style": "verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;shadow=0;glass=0;dashed=1;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "555",
+                            "y": "530",
+                            "width": "120",
+                            "height": "100",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-101",
+                        "value": "<i><b>Octopus Server</b></i><br>(<i>UE2POC38OCT01</i>)<br><span style=\"color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px\">%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22App%20Server%22%20style%3D%22verticalLabelPosition%3Dbottom%3Bhtml%3D1%3BverticalAlign%3Dtop%3Balign%3Dcenter%3BstrokeColor%3Dnone%3BfillColor%3D%2300BEF2%3Bshape%3Dmxgraph.azure.virtual_machine%3Bshadow%3D0%3Bglass%3D0%3Bdashed%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22160%22%20y%3D%22160%22%20width%3D%22110%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E</span>",
+                        "style": "verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;shadow=0;glass=0;dashed=1;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "320",
+                            "y": "520",
+                            "width": "130",
+                            "height": "100",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-102",
+                        "value": "",
+                        "style": "endArrow=classic;startArrow=classic;html=1;fontSize=13;exitX=1.012;exitY=0.887;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;",
+                        "parent": "1",
+                        "source": "JRmProH149STGmIK2Tsz-98",
+                        "target": "JRmProH149STGmIK2Tsz-100",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "width": "50",
+                            "height": "50",
+                            "relative": "1",
+                            "as": "geometry"
+                        },
+                        "mxPoint": [
+                            {
+                                "_attributes": {
+                                    "x": "471",
+                                    "y": "391",
+                                    "as": "sourcePoint"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "564.35",
+                                    "y": "572.9434782608697",
+                                    "as": "targetPoint"
+                                }
+                            }
+                        ],
+                        "Array": {
+                            "_attributes": {
+                                "as": "points"
+                            },
+                            "mxPoint": [
+                                {
+                                    "_attributes": {
+                                        "x": "509",
+                                        "y": "409"
+                                    }
+                                },
+                                {
+                                    "_attributes": {
+                                        "x": "509",
+                                        "y": "580"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-103",
+                        "value": "",
+                        "style": "endArrow=classic;startArrow=classic;html=1;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;",
+                        "parent": "1",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "width": "50",
+                            "height": "50",
+                            "relative": "1",
+                            "as": "geometry"
+                        },
+                        "mxPoint": [
+                            {
+                                "_attributes": {
+                                    "x": "448",
+                                    "y": "182.20000000000016",
+                                    "as": "sourcePoint"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "548",
+                                    "y": "340",
+                                    "as": "targetPoint"
+                                }
+                            }
+                        ],
+                        "Array": {
+                            "_attributes": {
+                                "as": "points"
+                            },
+                            "mxPoint": [
+                                {
+                                    "_attributes": {
+                                        "x": "498",
+                                        "y": "182"
+                                    }
+                                },
+                                {
+                                    "_attributes": {
+                                        "x": "498",
+                                        "y": "340"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-104",
+                        "value": "",
+                        "style": "aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database.svg;glass=0;dashPattern=1 1;labelBackgroundColor=#00FF00;sketch=0;strokeColor=#00BEF2;strokeWidth=2;fillColor=#FF0080;gradientColor=none;fontSize=13;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "330",
+                            "y": "200",
+                            "width": "30",
+                            "height": "22.2",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-105",
+                        "value": "",
+                        "style": "aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database.svg;glass=0;dashPattern=1 1;labelBackgroundColor=#00FF00;sketch=0;strokeColor=#00BEF2;strokeWidth=2;fillColor=#FF0080;gradientColor=none;fontSize=13;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "330",
+                            "y": "390.9",
+                            "width": "30",
+                            "height": "22.2",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-106",
+                        "value": "",
+                        "style": "html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_deployment_manager;shadow=0;glass=0;dashed=1;dashPattern=1 1;labelBackgroundColor=#00FF00;sketch=0;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "320",
+                            "y": "581.5",
+                            "width": "48",
+                            "height": "38.5",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-107",
+                        "style": "edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;",
+                        "parent": "1",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "relative": "1",
+                            "as": "geometry"
+                        },
+                        "mxPoint": [
+                            {
+                                "_attributes": {
+                                    "x": "414",
+                                    "y": "440",
+                                    "as": "sourcePoint"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "414",
+                                    "y": "440",
+                                    "as": "targetPoint"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-108",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=#00FF00;sketch=0;strokeColor=#00BEF2;strokeWidth=2;fillColor=#E3E9F2;gradientColor=none;fontSize=13;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "750",
+                            "y": "340",
+                            "width": "90",
+                            "height": "60",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-109",
+                        "value": "<b><i>Public IP<br>Address<br></i></b>",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;fontSize=13;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "750",
+                            "y": "360",
+                            "width": "90",
+                            "height": "20",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-110",
+                        "value": "",
+                        "style": "endArrow=classic;html=1;fontSize=13;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;",
+                        "parent": "1",
+                        "source": "JRmProH149STGmIK2Tsz-108",
+                        "target": "JRmProH149STGmIK2Tsz-96",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "width": "50",
+                            "height": "50",
+                            "relative": "1",
+                            "as": "geometry"
+                        },
+                        "mxPoint": [
+                            {
+                                "_attributes": {
+                                    "x": "500",
+                                    "y": "430",
+                                    "as": "sourcePoint"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "550",
+                                    "y": "380",
+                                    "as": "targetPoint"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-111",
+                        "style": "edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;",
+                        "parent": "1",
+                        "source": "JRmProH149STGmIK2Tsz-95",
+                        "target": "JRmProH149STGmIK2Tsz-95",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "relative": "1",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-112",
+                        "value": "",
+                        "style": "endArrow=classic;startArrow=classic;html=1;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;",
+                        "parent": "1",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "width": "50",
+                            "height": "50",
+                            "relative": "1",
+                            "as": "geometry"
+                        },
+                        "mxPoint": [
+                            {
+                                "_attributes": {
+                                    "x": "450",
+                                    "y": "375",
+                                    "as": "sourcePoint"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "545",
+                                    "y": "375",
+                                    "as": "targetPoint"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-113",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=2;dashed=1;strokeWidth=2;fillColor=#F2F7FF;gradientDirection=north;perimeterSpacing=0;sketch=0;dashPattern=1 1;strokeColor=#00BEF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "75",
+                            "y": "112",
+                            "width": "165",
+                            "height": "158",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-114",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=#00FF00;sketch=0;strokeWidth=2;gradientColor=none;fontSize=13;fillColor=#DADCF2;strokeColor=#CBCDF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "97.5",
+                            "y": "129.4",
+                            "width": "122.5",
+                            "height": "90.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-115",
+                        "value": "",
+                        "style": "aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Search.svg;rounded=1;shadow=0;glass=0;labelBackgroundColor=#00FF00;sketch=0;strokeColor=#00BEF2;strokeWidth=2;fillColor=#DADCF2;gradientColor=none;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "133.6",
+                            "y": "151.4",
+                            "width": "52.8",
+                            "height": "52.8",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-116",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=2;dashed=1;strokeWidth=2;fillColor=#F2F7FF;gradientDirection=north;perimeterSpacing=0;sketch=0;dashPattern=1 1;strokeColor=#00BEF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "75",
+                            "y": "300",
+                            "width": "165",
+                            "height": "170",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-117",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=#00FF00;sketch=0;strokeWidth=2;gradientColor=none;fontSize=13;fillColor=#DADCF2;strokeColor=#CBCDF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "97.5",
+                            "y": "317.4",
+                            "width": "122.5",
+                            "height": "92.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-118",
+                        "value": "",
+                        "style": "aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Service_Bus_Relay.svg;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#CBCDF2;strokeWidth=2;fillColor=#EEEEEE;gradientColor=#ffffff;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "134",
+                            "y": "338",
+                            "width": "50",
+                            "height": "50",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-119",
+                        "style": "edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontSize=13;",
+                        "parent": "1",
+                        "source": "JRmProH149STGmIK2Tsz-113",
+                        "target": "JRmProH149STGmIK2Tsz-113",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "relative": "1",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-120",
+                        "value": "<b>Azure Search Service</b><br>(UE2POC38SS01)",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;fontSize=13;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "90",
+                            "y": "232",
+                            "width": "140",
+                            "height": "28",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-121",
+                        "value": "<b>Azure Service Bus</b><br>(UE2-POC-38-SERVICEHUB09)",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;fontSize=13;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "90",
+                            "y": "420",
+                            "width": "140",
+                            "height": "28",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-122",
+                        "value": "",
+                        "style": "endArrow=classic;startArrow=classic;html=1;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;",
+                        "parent": "1",
+                        "source": "JRmProH149STGmIK2Tsz-113",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "width": "50",
+                            "height": "50",
+                            "relative": "1",
+                            "as": "geometry"
+                        },
+                        "mxPoint": [
+                            {
+                                "_attributes": {
+                                    "x": "500",
+                                    "y": "390",
+                                    "as": "sourcePoint"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "286",
+                                    "y": "190",
+                                    "as": "targetPoint"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-123",
+                        "value": "",
+                        "style": "endArrow=classic;startArrow=classic;html=1;fontSize=13;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.47;entryDx=0;entryDy=0;entryPerimeter=0;",
+                        "parent": "1",
+                        "source": "JRmProH149STGmIK2Tsz-116",
+                        "target": "JRmProH149STGmIK2Tsz-95",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "width": "50",
+                            "height": "50",
+                            "relative": "1",
+                            "as": "geometry"
+                        },
+                        "mxPoint": [
+                            {
+                                "_attributes": {
+                                    "x": "240",
+                                    "y": "400",
+                                    "as": "sourcePoint"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "290",
+                                    "y": "350",
+                                    "as": "targetPoint"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-124",
+                        "value": "",
+                        "style": "fillColor=#28A8E0;verticalLabelPosition=bottom;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.dns_security;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;fontSize=13;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "934",
+                            "y": "490",
+                            "width": "66",
+                            "height": "60",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-125",
+                        "value": "",
+                        "style": "edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;curved=1;",
+                        "parent": "1",
+                        "source": "JRmProH149STGmIK2Tsz-127",
+                        "target": "JRmProH149STGmIK2Tsz-124",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "relative": "1",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-126",
+                        "value": "",
+                        "style": "edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;",
+                        "parent": "1",
+                        "source": "JRmProH149STGmIK2Tsz-127",
+                        "target": "JRmProH149STGmIK2Tsz-109",
+                        "edge": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "relative": "1",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-127",
+                        "value": "Internet",
+                        "style": "html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.cloud;rounded=1;glass=0;sketch=0;fillColor=#EEEEEE;gradientColor=#ffffff;fontSize=13;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "932",
+                            "y": "345",
+                            "width": "68",
+                            "height": "45",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-128",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=1;fillColor=#EEEEEE;gradientDirection=north;dashed=1;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1080",
+                            "y": "80",
+                            "width": "280",
+                            "height": "310",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-129",
+                        "value": "Products",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1080",
+                            "y": "46",
+                            "width": "70",
+                            "height": "30",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-130",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "434.7",
+                            "y": "122.80000000000001",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-131",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/Koloria-Icon-Set/32/Warning.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "429",
+                            "y": "510",
+                            "width": "30",
+                            "height": "30",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-132",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/splashyIcons/error.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "657",
+                            "y": "306",
+                            "width": "26",
+                            "height": "26",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-133",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/24x24-free-application-icons/24/Error.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "659",
+                            "y": "520",
+                            "width": "24",
+                            "height": "24",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-134",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "433.7",
+                            "y": "309.4",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-135",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "720",
+                            "y": "100.20000000000002",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-136",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "225",
+                            "y": "100.20000000000002",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-137",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "225",
+                            "y": "294.8",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-138",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=1;gradientDirection=north;dashed=1;labelBackgroundColor=none;fillColor=#EEEEEE;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1080",
+                            "y": "450",
+                            "width": "280",
+                            "height": "266",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-139",
+                        "value": "Resource/Product Details",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1080",
+                            "y": "413.1",
+                            "width": "220",
+                            "height": "30",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-140",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=2;dashed=1;strokeWidth=2;fillColor=#F2F7FF;gradientDirection=north;perimeterSpacing=0;sketch=0;dashPattern=1 1;strokeColor=#00BEF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1100",
+                            "y": "91",
+                            "width": "240",
+                            "height": "39",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-141",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=2;dashed=1;strokeWidth=2;fillColor=#F2F7FF;gradientDirection=north;perimeterSpacing=0;sketch=0;dashPattern=1 1;strokeColor=#00BEF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1100",
+                            "y": "191",
+                            "width": "240",
+                            "height": "39",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-142",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=2;dashed=1;strokeWidth=2;fillColor=#F2F7FF;gradientDirection=north;perimeterSpacing=0;sketch=0;dashPattern=1 1;strokeColor=#00BEF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1100",
+                            "y": "140",
+                            "width": "240",
+                            "height": "40",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-143",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=2;dashed=1;strokeWidth=2;fillColor=#F2F7FF;gradientDirection=north;perimeterSpacing=0;sketch=0;dashPattern=1 1;strokeColor=#00BEF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1100",
+                            "y": "241",
+                            "width": "240",
+                            "height": "39",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-144",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=2;dashed=1;strokeWidth=2;fillColor=#F2F7FF;gradientDirection=north;perimeterSpacing=0;sketch=0;dashPattern=1 1;strokeColor=#00BEF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1100",
+                            "y": "289.6",
+                            "width": "240",
+                            "height": "38.4",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-145",
+                        "value": "",
+                        "style": "rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;arcSize=2;dashed=1;strokeWidth=2;fillColor=#F2F7FF;gradientDirection=north;perimeterSpacing=0;sketch=0;dashPattern=1 1;strokeColor=#00BEF2;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1100",
+                            "y": "340",
+                            "width": "240",
+                            "height": "40",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-146",
+                        "value": "",
+                        "style": "html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.folder;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1120",
+                            "y": "100",
+                            "width": "30",
+                            "height": "20",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-147",
+                        "value": "",
+                        "style": "html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.calculator;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1120",
+                            "y": "149.4",
+                            "width": "30",
+                            "height": "25",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-148",
+                        "value": "",
+                        "style": "html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1120",
+                            "y": "196",
+                            "width": "30",
+                            "height": "24",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-149",
+                        "value": "",
+                        "style": "html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.eye;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1120",
+                            "y": "299",
+                            "width": "31",
+                            "height": "21",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-150",
+                        "value": "",
+                        "style": "html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.repeat;pointerEvents=1;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1120",
+                            "y": "348",
+                            "width": "30",
+                            "height": "24",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-151",
+                        "value": "",
+                        "style": "html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.box;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1120",
+                            "y": "245",
+                            "width": "30",
+                            "height": "30",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-152",
+                        "value": "Claims",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1169",
+                            "y": "96",
+                            "width": "141",
+                            "height": "28",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-153",
+                        "value": "Billing",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1169",
+                            "y": "146.4",
+                            "width": "141",
+                            "height": "28",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-154",
+                        "value": "Policy",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1169",
+                            "y": "197.10000000000002",
+                            "width": "141",
+                            "height": "28",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-155",
+                        "value": "Party",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1169",
+                            "y": "247.00000000000003",
+                            "width": "141",
+                            "height": "28",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-156",
+                        "value": "Insights",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1169",
+                            "y": "294.79999999999995",
+                            "width": "141",
+                            "height": "28",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-157",
+                        "value": "Producers",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1169",
+                            "y": "345.99999999999994",
+                            "width": "141",
+                            "height": "28",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-158",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1310",
+                            "y": "99.20000000000002",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-159",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1310",
+                            "y": "148.70000000000002",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-160",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1310",
+                            "y": "200",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-161",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1310",
+                            "y": "248.7",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-162",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1310",
+                            "y": "297.4",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-163",
+                        "value": "",
+                        "style": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1310",
+                            "y": "352.4",
+                            "width": "22.6",
+                            "height": "22.6",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-164",
+                        "value": "Azure Resources",
+                        "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "30",
+                            "y": "46",
+                            "width": "245",
+                            "height": "30",
+                            "as": "geometry"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "JRmProH149STGmIK2Tsz-165",
+                        "value": "<font style=\"font-size: 14px\">To know more details about resource or product, please click any product or resource.</font>",
+                        "style": "text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#F2F7FF;strokeColor=#00BEF2;dashed=1;dashPattern=1 1;labelPadding=2;spacingLeft=5;",
+                        "parent": "1",
+                        "vertex": "1"
+                    },
+                    "mxGeometry": {
+                        "_attributes": {
+                            "x": "1090",
+                            "y": "460",
+                            "width": "260",
+                            "height": "245",
+                            "as": "geometry"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

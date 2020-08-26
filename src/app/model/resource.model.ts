@@ -115,6 +115,30 @@ export interface VirtualNetwork {
     tenantId: string;
 }
 
+export interface Claims {
+    state: number;
+}
+
+export interface Billing {
+    state: number;
+}
+
+export interface Policy {
+    state: number;
+}
+
+export interface Party {
+    state: number;
+}
+
+export interface Insights {
+    state: number;
+}
+
+export interface Producer {
+    state: number;
+}
+
 export class ResourceModel {
     appServerVirtualMachine: AppServerVirtualMachine;
     dbServerVirtualMachine: DbServerVirtualMachine;
@@ -124,4 +148,10 @@ export class ResourceModel {
     seachService: SeachService;
     serviceBus: ServiceBus;
     virtualNetwork: VirtualNetwork;
+    claims: Claims;
+    billing: Billing;
+    policy: Policy;
+    party: Party;
+    insights: Insights;
+    producer: Producer;
 }
