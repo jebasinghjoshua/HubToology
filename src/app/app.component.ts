@@ -23,7 +23,6 @@ export class AppComponent implements AfterViewInit, OnInit {
   hideLoader = false;
   resourceModel: ResourceModel = null;
   clientIds: string[] = ['1', '2'];
-  graph: any;
   private updateSubscription: Subscription;
   selectedClientId = 1;
   isAutoRefreshChecked = true;
@@ -45,7 +44,7 @@ export class AppComponent implements AfterViewInit, OnInit {
   setNetWorkGraph(resourceResponse) {
     this.hubService.getXml().subscribe(xmlString => {
       this.graphContainer.nativeElement.innerHTML = '';
-      this.graph = new mxGraph(this.graphContainer.nativeElement);
+      const graph = new mxGraph(this.graphContainer.nativeElement);
       try {
          this.hideLoader = this.hideContainer1 = true;
          const doc = mxUtils.parseXml(xmlString);
@@ -58,31 +57,31 @@ export class AppComponent implements AfterViewInit, OnInit {
           if (decodedCell) {
             cells.push(codec.decodeCell(elt));
             LoadNetwork(decodedCell, this.resourceModel);
-            this.graph.refresh();
+            graph.refresh();
           }
           elt = elt.nextSibling;
         }
-         this.graph.isHtmlLabel = (cell: any) => true;
-         this.graph.addCells(cells);
+         graph.isHtmlLabel = (cell: any) => true;
+         graph.addCells(cells);
 
-         this.graph.selectCellForEvent = function(cell, evt) {
+         graph.selectCellForEvent = function(cell, evt) {
 
           const informationWindow = cells.find(cell => cell.id  === INFORMATION_WINDOW_ID);
           console.log(cell);
           actions(cell, informationWindow, resourceResponse);
-          this.graph.refresh();
+          graph.refresh();
         };
 
-         this.graph.refresh();
+         graph.refresh();
 
       } finally {
-        this.graph.getModel().endUpdate();
+        graph.getModel().endUpdate();
       }
     });
   }
 
   ngAfterViewInit() {
-    this.graph = new mxGraph(this.graphContainer.nativeElement);
+    const graph = new mxGraph(this.graphContainer.nativeElement);
     this.hubService.getXml().subscribe(xmlString => {
       try {
         const doc = mxUtils.parseXml(xmlString);
@@ -94,14 +93,14 @@ export class AppComponent implements AfterViewInit, OnInit {
 
           if (decodedCell) {
             cells.push(codec.decodeCell(elt));
-            this.graph.refresh();
+            graph.refresh();
           }
           elt = elt.nextSibling;
         }
-        this.graph.isHtmlLabel = (cell: any) => true;
-        this.graph.addCells(cells);
+        graph.isHtmlLabel = (cell: any) => true;
+        graph.addCells(cells);
       } finally {
-        this.graph.getModel().endUpdate();
+        graph.getModel().endUpdate();
       }
     });
   }
