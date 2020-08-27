@@ -1,4 +1,4 @@
-import { AZURE_SEARCH_IDS, AZURE_SERVICE_BUS, INSIGHT_DB_SERVER, DB_SERVER, APP_SERVER, OCTOPUS_SERVER, PRODUCT_APP_SERVER, CLAIMS_IDS, BILLING_IDS, POLICY_IDS, PARTY_IDS, INSIGTS_IDS, PRODUCERS_IDS, VIRTUAL_NETWORK_NAME_ID, VIRTUAL_NETWORK_IP_ADDRESS_ID, VIRTUAL_NETWORK_STATUS_ID, PRODUCERS_NETWORK_VERTEX_ID } from './constant';
+import { AZURE_SEARCH_IDS, AZURE_SERVICE_BUS, INSIGHT_DB_SERVER, DB_SERVER, APP_SERVER, OCTOPUS_SERVER, PRODUCT_APP_SERVER, CLAIMS_IDS, BILLING_IDS, POLICY_IDS, PARTY_IDS, INSIGTS_IDS, PRODUCERS_IDS, VIRTUAL_NETWORK_NAME_ID, VIRTUAL_NETWORK_IP_ADDRESS_ID, VIRTUAL_NETWORK_STATUS_ID, PRODUCERS_NETWORK_VERTEX_ID, INSIGHTDB_NETWORK_VERTEX_ID } from './constant';
 import { ResourceModel } from '../model/resource.model';
 import { TagContentType } from '@angular/compiler';
 
@@ -318,6 +318,10 @@ export const LoadNetwork = (cell, resourceModel: ResourceModel) =>
     }
 
     if ((PRODUCT_APP_SERVER.indexOf(cell.id) >= 0 || cell.id == PRODUCERS_NETWORK_VERTEX_ID) && !resourceModel.producerVirtualMachine.vmSize){
+        cell.setVisible(false);
+    }
+
+    if ((INSIGHT_DB_SERVER.indexOf(cell.id) >= 0 || cell.id == INSIGHTDB_NETWORK_VERTEX_ID) && !resourceModel.insightsVirtualMachine.vmSize){
         cell.setVisible(false);
     }
 
