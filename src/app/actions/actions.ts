@@ -279,7 +279,7 @@ export const LoadNetwork = (cell, resourceModel: ResourceModel) =>
     else if(cell.id == AZURE_SERVICE_BUS[1] && resourceModel.serviceBus && resourceModel.serviceBus.status){
         cell.style = state[resourceModel.serviceBus.status.toLowerCase() == "active" ? "1" : "0"];
     }
-    else if(cell.id == INSIGHT_DB_SERVER[1] && resourceModel.insightsVirtualMachine && resourceModel.insightsVirtualMachine.state){
+    else if(cell.id == INSIGHT_DB_SERVER[1] && resourceModel.insightsVirtualMachine){
         cell.style = state[resourceModel.insightsVirtualMachine.state];
     }
     else if(cell.id == DB_SERVER[1] && resourceModel.dbServerVirtualMachine && resourceModel.dbServerVirtualMachine.state){
