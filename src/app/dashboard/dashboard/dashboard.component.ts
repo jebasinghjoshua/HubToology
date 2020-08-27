@@ -1,24 +1,22 @@
-import { Component, OnInit, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
-import { ResourceModel } from 'src/app/model/resource.model';
+import { Component, AfterViewInit, ElementRef, ViewChild, OnInit } from '@angular/core';
 import { Subscription, interval } from 'rxjs';
+import { ResourceModel } from 'src/app/model/resource.model';
 import { HupService } from 'src/app/service/hup.service';
+import { LoadNetwork, actions } from 'src/app/actions/actions';
 import { INFORMATION_WINDOW_ID } from 'src/app/actions/constant';
-import { actions, LoadNetwork } from 'src/app/actions/actions';
 
 declare var mxUtils: any;
 declare var mxCodec: any;
 declare var mxGraph: any;
-declare var mxGraphModel: any;
 declare var mxGeometry: any;
+declare var mxConstants: any;
 
 @Component({
-  selector: 'app-dashboard',
+  selector: 'app-root',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
-
 export class DashboardComponent implements AfterViewInit, OnInit {
-
   @ViewChild('graphContainer', { static: false }) graphContainer: ElementRef;
   @ViewChild('graphContainer1', { static: false }) graphContainer1: ElementRef;
   hideContainer1 = false;
@@ -29,20 +27,121 @@ export class DashboardComponent implements AfterViewInit, OnInit {
   selectedClientId = 1;
   isAutoRefreshChecked = false;
   graphLoading = false;
-
+  cellStyleNotOnHover: string[] = ['JRmProH149STGmIK2Tsz-3', 'JRmProH149STGmIK2Tsz-1'];
   constructor(private hubService: HupService) {
     this.resourceModel = new ResourceModel();
 
   }
 
-  ngOnInit() {
-    this.getResourceByClientId(parseInt(this.clientIds[0]));
+  ngOnInit(): void {
+     this.getResourceByClientId(parseInt(this.clientIds[0]));
+    //  this.updateSubscription = interval(8000).subscribe(
+    //   (val) => {
+    //     this.getResourceByClientId(this.selectedClientId);
+    // });
   }
 
   setNetWorkGraph(resourceResponse) {
     this.hubService.getXml().subscribe(xmlString => {
       this.graphContainer.nativeElement.innerHTML = '';
       const graph = new mxGraph(this.graphContainer.nativeElement);
+      function updateStyle(state, hover)
+				{
+          if (state.cell && ['JRmProH149STGmIK2Tsz-3', 'JRmProH149STGmIK2Tsz-1'].indexOf(state.cell.id) < 0)
+          {
+            state.style[mxConstants.STYLE_ROUNDED] = (hover) ? '1' : '0';
+            state.style[mxConstants.STYLE_STROKEWIDTH] = (hover) ? '4' : '1';
+            state.style[mxConstants.CURSOR_CONNECT] = (hover) ? 'pointer' : '';
+          }
+				};
+				
+				// Changes fill color to red on mouseover
+				graph.addMouseListener(
+				{
+				    currentState: null,
+				    previousStyle: null,
+				    mouseDown: function(sender, me)
+				    {
+				        if (this.currentState != null)
+				        {
+				        	this.dragLeave(me.getEvent(), this.currentState);
+				        	this.currentState = null;
+				        }
+				    },
+				    mouseMove: function(sender, me)
+				    {
+				        if (this.currentState != null && me.getState() == this.currentState)
+				        {
+				            return;
+				        }
+
+				        var tmp = graph.view.getState(me.getCell());
+
+				        // Ignores everything but vertices
+				        if (graph.isMouseDown || (tmp != null && !
+				            graph.getModel().isVertex(tmp.cell)))
+				        {
+				        	tmp = null;
+				        }
+
+				        if (tmp != this.currentState)
+				        {
+				            if (this.currentState != null)
+				            {
+				                this.dragLeave(me.getEvent(), this.currentState);
+				            }
+
+				            this.currentState = tmp;
+
+				            if (this.currentState != null)
+				            {
+				                this.dragEnter(me.getEvent(), this.currentState);
+				            }
+				        }
+				    },
+				    mouseUp: function(sender, me) { },
+				    dragEnter: function(evt, state)
+				    {
+				        if (state != null)
+				        {
+				        	this.previousStyle = state.style;
+				        	state.style = mxUtils.clone(state.style);
+				        	updateStyle(state, true);
+                  
+                  if (state && state.shape)
+                  {
+                    state.shape.apply(state);
+				        	  state.shape.redraw();
+                  }
+				        	
+				        	if (state.text != null)
+				        	{
+				        		state.text.apply(state);
+				        		state.text.redraw();
+				        	}
+				        }
+				    },
+				    dragLeave: function(evt, state)
+				    {
+				        if (state != null)
+				        {
+				        	state.style = this.previousStyle;
+				        	updateStyle(state, false);
+                  
+                  if (state && state.shape)
+                  {
+                    state.shape.apply(state);
+				        	  state.shape.redraw();
+                  }
+				        	
+				        	if (state.text != null)
+				        	{
+				        		state.text.apply(state);
+				        		state.text.redraw();
+				        	}
+				        }
+				    }
+				});
       try {
          this.hideLoader = this.hideContainer1 = true;
          const doc = mxUtils.parseXml(xmlString);
@@ -80,6 +179,7 @@ export class DashboardComponent implements AfterViewInit, OnInit {
 
   ngAfterViewInit() {
     const graph = new mxGraph(this.graphContainer.nativeElement);
+    
     this.hubService.getXml().subscribe(xmlString => {
       try {
         const doc = mxUtils.parseXml(xmlString);
@@ -110,11 +210,11 @@ export class DashboardComponent implements AfterViewInit, OnInit {
 
   autoRefreshOnChange(event) {
     this.isAutoRefreshChecked = !this.isAutoRefreshChecked;
-    if (!this.isAutoRefreshChecked) {
-      this.updateSubscription.unsubscribe();
-    } else { this.updateSubscription = interval(5000).subscribe(
-      (val) => { this.getResourceByClientId(this.selectedClientId);
-    }); }
+    // if (!this.isAutoRefreshChecked) {
+    //   this.updateSubscription.unsubscribe();
+    // } else { this.updateSubscription = interval(2000).subscribe(
+    //   (val) => { this.getResourceByClientId(this.selectedClientId);
+    // }); }
   }
 
   getResourceByClientId(clientId: number) {

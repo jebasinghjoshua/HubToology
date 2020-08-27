@@ -88,18 +88,21 @@ export const INSIGTS_IDS = [
     "JRmProH149STGmIK2Tsz-82",
     "JRmProH149STGmIK2Tsz-76",
     "JRmProH149STGmIK2Tsz-69",
+    "JRmProH149STGmIK2Tsz-63"
 ]
 
 export const PRODUCERS_IDS = [
     "JRmProH149STGmIK2Tsz-83",
     "JRmProH149STGmIK2Tsz-77",
     "JRmProH149STGmIK2Tsz-70",
+    "JRmProH149STGmIK2Tsz-64"
 ]
 
 export const INFORMATION_WINDOW_ID = "JRmProH149STGmIK2Tsz-85";
 export const VIRTUAL_NETWORK_NAME_ID = "MEvAcN-P-bEarQGQbE-i-51";
 export const VIRTUAL_NETWORK_IP_ADDRESS_ID = "MEvAcN-P-bEarQGQbE-i-53";
 export const VIRTUAL_NETWORK_STATUS_ID = "JRmProH149STGmIK2Tsz-53";
+export const PRODUCERS_NETWORK_VERTEX_ID = "JRmProH149STGmIK2Tsz-11";
 
 // export const PRODUCT_CLAIMS_STATUS_ID = "JRmProH149STGmIK2Tsz-78";
 // export const PRODUCT_BILLINGS_STATUS_ID = "JRmProH149STGmIK2Tsz-79";

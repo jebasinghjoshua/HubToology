@@ -1,10 +1,10 @@
-import { AZURE_SEARCH_IDS, AZURE_SERVICE_BUS, INSIGHT_DB_SERVER, DB_SERVER, APP_SERVER, OCTOPUS_SERVER, PRODUCT_APP_SERVER, CLAIMS_IDS, BILLING_IDS, POLICY_IDS, PARTY_IDS, INSIGTS_IDS, PRODUCERS_IDS, VIRTUAL_NETWORK_NAME_ID, VIRTUAL_NETWORK_IP_ADDRESS_ID, VIRTUAL_NETWORK_STATUS_ID } from './constant';
+import { AZURE_SEARCH_IDS, AZURE_SERVICE_BUS, INSIGHT_DB_SERVER, DB_SERVER, APP_SERVER, OCTOPUS_SERVER, PRODUCT_APP_SERVER, CLAIMS_IDS, BILLING_IDS, POLICY_IDS, PARTY_IDS, INSIGTS_IDS, PRODUCERS_IDS, VIRTUAL_NETWORK_NAME_ID, VIRTUAL_NETWORK_IP_ADDRESS_ID, VIRTUAL_NETWORK_STATUS_ID, PRODUCERS_NETWORK_VERTEX_ID } from './constant';
 import { ResourceModel } from '../model/resource.model';
 import { TagContentType } from '@angular/compiler';
 
 export const AZURE_SEARCH_CLICKED = "AZURE_SEARCH_CLICKED";
 export const AZURE_SEARCH_CELL_ID = "JRmProH149STGmIK2Tsz-22";
-
+declare var mxConstants: any;
 const state: {[key:string]: string} = {
     "0": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/24x24-free-application-icons/24/Error.png",
     "1": "shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/momenticons-basic/32x32/accept1.png"
@@ -273,44 +273,56 @@ export const LoadNetwork = (cell, resourceModel: ResourceModel) =>
         cell.value = `(${resourceModel.virtualNetwork.addressPrefix})`;
     }
     
-    else if(cell.id == AZURE_SEARCH_IDS[1]){
+    else if(cell.id == AZURE_SEARCH_IDS[1] && resourceModel.seachService && resourceModel.seachService.status){
         cell.style = state[resourceModel.seachService.status.toLowerCase() == "running" ? "1" : "0"];
     }
-    else if(cell.id == AZURE_SERVICE_BUS[1]){
+    else if(cell.id == AZURE_SERVICE_BUS[1] && resourceModel.serviceBus && resourceModel.serviceBus.status){
         cell.style = state[resourceModel.serviceBus.status.toLowerCase() == "active" ? "1" : "0"];
     }
-    else if(cell.id == INSIGHT_DB_SERVER[1]){
+    else if(cell.id == INSIGHT_DB_SERVER[1] && resourceModel.insightsVirtualMachine && resourceModel.insightsVirtualMachine.state){
         cell.style = state[resourceModel.insightsVirtualMachine.state];
     }
-    else if(cell.id == DB_SERVER[1]){
+    else if(cell.id == DB_SERVER[1] && resourceModel.dbServerVirtualMachine && resourceModel.dbServerVirtualMachine.state){
         cell.style = state[resourceModel.dbServerVirtualMachine.state];
     }
-    else if(cell.id == OCTOPUS_SERVER[1]){
+    else if(cell.id == OCTOPUS_SERVER[1] && resourceModel.octopusVirtualMachine && resourceModel.octopusVirtualMachine.state){
         cell.style = state[resourceModel.octopusVirtualMachine.state];
     }
-    else if(cell.id == APP_SERVER[1]){
+    else if(cell.id == APP_SERVER[1] && resourceModel.appServerVirtualMachine && resourceModel.appServerVirtualMachine.state){
         cell.style = state[resourceModel.appServerVirtualMachine.state];
     }
-    else if(cell.id == PRODUCT_APP_SERVER[1]){
+    else if(cell.id == PRODUCT_APP_SERVER[1] && resourceModel.producerVirtualMachine && resourceModel.producerVirtualMachine.state){
         cell.style = state[resourceModel.producerVirtualMachine.state];
     }
-    else if(cell.id == CLAIMS_IDS[0]){
+    else if(cell.id == CLAIMS_IDS[0] && resourceModel.claims && resourceModel.claims.state){
         cell.style = state[resourceModel.claims.state.toString()];
     }
-    else if(cell.id == BILLING_IDS[0]){
+    else if(cell.id == BILLING_IDS[0] && resourceModel.billing && resourceModel.billing.state){
         cell.style = state[resourceModel.billing.state.toString()];
     }
-    else if(cell.id == POLICY_IDS[0]){
+    else if(cell.id == POLICY_IDS[0] && resourceModel.policy){
         cell.style = state[resourceModel.policy.state.toString()];
     }
-    else if(cell.id == PARTY_IDS[0]){
+    else if(cell.id == PARTY_IDS[0] && resourceModel.party){
         cell.style = state[resourceModel.party.state.toString()];
     }
-    else if(cell.id == INSIGTS_IDS[0]){
+    else if(cell.id == INSIGTS_IDS[0] && resourceModel.insights){
         cell.style = state[resourceModel.insights.state.toString()];
     }
-    else if(cell.id == PRODUCERS_IDS[0]){
+    else if(cell.id == PRODUCERS_IDS[0] && resourceModel.producer){
         cell.style = state[resourceModel.producer.state.toString()];
+    }
+
+    if (PRODUCERS_IDS.indexOf(cell.id) >= 0 && !resourceModel.producer){
+        cell.setVisible(false);
+    }
+
+    if ((PRODUCT_APP_SERVER.indexOf(cell.id) >= 0 || cell.id == PRODUCERS_NETWORK_VERTEX_ID) && !resourceModel.producerVirtualMachine.vmSize){
+        cell.setVisible(false);
+    }
+
+    if (INSIGTS_IDS.indexOf(cell.id) >= 0 && !resourceModel.insights){
+        cell.setVisible(false);
     }
 }
 
