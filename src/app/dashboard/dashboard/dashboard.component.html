@@ -1,0 +1,24 @@
+<div [hidden]="hideLoader" class="loadWrapper">
+    <div class="loader"></div>
+  </div>
+
+  <div style="transform: translateX(-50%,-50%);position: absolute;z-index: 9999;left: 30px;top: 10px;">
+    <select style="font-weight:bold; width: 12rem;height: 2rem;" [(ngModel)]="selectedClientId" (change)="clientOnChange($event)" name="client" id="clientId">
+      <option style="font-weight:bold;" [value]="1"> Treequote Client - POC</option>
+      <option style="font-weight:bold;" [value]="2"> Green-Plus Client - POC</option>
+    </select>
+  </div>
+  <div style="transform: translateX(-50%,-50%);position: absolute;z-index: 9999;right: 100px;top: 20px;">
+    <input type="checkbox" 
+    name="autoRefreshSwitch" [(checked)]="isAutoRefreshChecked" (change)="autoRefreshOnChange($event)" >
+    Auto Refresh
+  </div>
+  <div style="transform: translateX(-50%,-50%);position: absolute;z-index: 9999;right: 40px;top: 20px;">
+    <span *ngIf="graphLoading" class="autoRefreshLoader" ><img style="width: 25px;" src="../assets/images/autoRefreshloading.gif"/></span>
+  </div>
+
+  <div #graphContainer id="graphContainer" >
+  </div>
+
+  <div #graphContainer1 [hidden]="hideContainer1" id="graphContainer1">
+  </div>
