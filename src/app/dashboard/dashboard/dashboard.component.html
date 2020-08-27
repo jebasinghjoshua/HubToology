@@ -9,6 +9,8 @@
     </select>
   </div>
   <div style="transform: translateX(-50%,-50%);position: absolute;z-index: 9999;right: 100px;top: 20px;font-weight: bold;">
+    
+    <button type="button" (click)="onRefresh()" style="margin-right: 5px;margin-bottom: 5px;" class="btn border5 border55">Refresh</button>
     <input type="checkbox" 
     name="autoRefreshSwitch" [(checked)]="isAutoRefreshChecked" (change)="autoRefreshOnChange($event)" >
     Auto Refresh

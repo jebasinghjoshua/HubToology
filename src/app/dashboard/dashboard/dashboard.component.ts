@@ -127,7 +127,9 @@ export class DashboardComponent implements AfterViewInit, OnInit {
       () => { this.getResourceByClientId(this.selectedClientId);
     }); }
   }
-
+  onRefresh() {
+    this.getResourceByClientId(this.selectedClientId);
+  }
   getResourceByClientId(clientId: number) {
     this.graphLoading = true;
     this.hubService.getResource(clientId).subscribe(response => {
