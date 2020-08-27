@@ -45,85 +45,6 @@ export class DashboardComponent implements AfterViewInit, OnInit {
     this.hubService.getXml().subscribe(xmlString => {
       this.graphContainer.nativeElement.innerHTML = '';
       const graph = new mxGraph(this.graphContainer.nativeElement);
-      function updateStyle(state, hover) {
-          if (state.cell && ['JRmProH149STGmIK2Tsz-3', 'JRmProH149STGmIK2Tsz-1'].indexOf(state.cell.id) < 0) {
-            state.style[mxConstants.STYLE_ROUNDED] = (hover) ? '1' : '0';
-            state.style[mxConstants.STYLE_STROKEWIDTH] = (hover) ? '4' : '1';
-            state.style[mxConstants.CURSOR_CONNECT] = (hover) ? 'pointer' : '';
-          }
-				}
-
-				// Changes fill color to red on mouseover
-				  graph.addMouseListener(
-				{
-				    currentState: null,
-				    previousStyle: null,
-				    mouseDown(me) {
-				        if (this.currentState != null) {
-				        	this.dragLeave(me.getEvent(), this.currentState);
-				        	this.currentState = null;
-				        }
-				    },
-				    mouseMove(me) {
-				        if (this.currentState != null && me.getState() == this.currentState) {
-				            return;
-				        }
-
-				        let tmp = graph.view.getState(me.getCell());
-
-				        // Ignores everything but vertices
-				        if (graph.isMouseDown || (tmp != null && !
-				            graph.getModel().isVertex(tmp.cell))) {
-				        	tmp = null;
-				        }
-
-				        if (tmp != this.currentState) {
-				            if (this.currentState != null) {
-				                this.dragLeave(me.getEvent(), this.currentState);
-				            }
-
-				            this.currentState = tmp;
-
-				            if (this.currentState != null) {
-				                this.dragEnter(me.getEvent(), this.currentState);
-				            }
-				        }
-				    },
-				    mouseUp() { },
-				    dragEnter(state) {
-				        if (state != null) {
-				        	this.previousStyle = state.style;
-				        	state.style = mxUtils.clone(state.style);
-				        	updateStyle(state, true);
-
-             if (state && state.shape) {
-                    state.shape.apply(state);
-				        	       state.shape.redraw();
-                  }
-
-				        	if (state.text != null) {
-				        		state.text.apply(state);
-				        		state.text.redraw();
-				        	}
-				        }
-				    },
-				    dragLeave(state) {
-				        if (state != null) {
-				        	state.style = this.previousStyle;
-				        	updateStyle(state, false);
-
-             if (state && state.shape) {
-                    state.shape.apply(state);
-				        	       state.shape.redraw();
-                  }
-
-				        	if (state.text != null) {
-				        		state.text.apply(state);
-				        		state.text.redraw();
-				        	}
-				        }
-				    }
-				});
       try {
          this.hideLoader = this.hideContainer1 = true;
          const doc = mxUtils.parseXml(xmlString);
@@ -146,9 +67,15 @@ export class DashboardComponent implements AfterViewInit, OnInit {
          graph.selectCellForEvent = function(cell) {
 
           const informationWindow = cells.find(cell => cell.id  === INFORMATION_WINDOW_ID);
-          console.log(cell);
           actions(cell, informationWindow, resourceResponse);
           graph.refresh();
+
+          const emages = document.querySelectorAll('[*|href]:not([href])');
+          emages.forEach(function(image){
+            image.addEventListener('mouseover', function() {
+              ( image as HTMLElement).style.cursor = 'pointer';
+            });
+          });
         };
 
          graph.refresh();
@@ -156,6 +83,8 @@ export class DashboardComponent implements AfterViewInit, OnInit {
       } finally {
         graph.getModel().endUpdate();
       }
+      this.setHoverStyleOnImage();
+      console.log(12);
     });
   }
 
@@ -221,5 +150,14 @@ export class DashboardComponent implements AfterViewInit, OnInit {
       text = (month + '/' + day + '/' + year + ' ' + hours + ':' + minutes + ':' + seconds);
     // here we get the element with the id of "date" and change the content to the text variable we made above
     return text;
+  }
+
+  setHoverStyleOnImage() {
+    const emages = document.querySelectorAll('[*|href]:not([href])');
+    emages.forEach(function(image){
+      image.addEventListener('mouseover', function() {
+        ( image as HTMLElement).style.cursor = 'pointer';
+      });
+    });
   }
 }

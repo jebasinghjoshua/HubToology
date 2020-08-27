@@ -9,7 +9,7 @@
     -webkit-align-items: center;
     align-items: center;
     justify-content: center;
-    background: -webkit-gradient(linear, left bottom, left top, from(#7F8C8D), to(#D3D3D3)) fixed;
+    background: -webkit-gradient(linear, left bottom, left top, from(#7F8C8D), to(#fafdff)) fixed;
 }
 .caption {
     position: absolute;
