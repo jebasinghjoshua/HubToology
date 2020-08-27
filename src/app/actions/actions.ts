@@ -294,10 +294,10 @@ export const LoadNetwork = (cell, resourceModel: ResourceModel) =>
     else if(cell.id == PRODUCT_APP_SERVER[1] && resourceModel.producerVirtualMachine && resourceModel.producerVirtualMachine.state){
         cell.style = state[resourceModel.producerVirtualMachine.state];
     }
-    else if(cell.id == CLAIMS_IDS[0] && resourceModel.claims && resourceModel.claims.state){
+    else if(cell.id == CLAIMS_IDS[0] && resourceModel.claims){
         cell.style = state[resourceModel.claims.state.toString()];
     }
-    else if(cell.id == BILLING_IDS[0] && resourceModel.billing && resourceModel.billing.state){
+    else if(cell.id == BILLING_IDS[0] && resourceModel.billing){
         cell.style = state[resourceModel.billing.state.toString()];
     }
     else if(cell.id == POLICY_IDS[0] && resourceModel.policy){
