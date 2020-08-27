@@ -210,11 +210,11 @@ export class DashboardComponent implements AfterViewInit, OnInit {
 
   autoRefreshOnChange(event) {
     this.isAutoRefreshChecked = !this.isAutoRefreshChecked;
-    // if (!this.isAutoRefreshChecked) {
-    //   this.updateSubscription.unsubscribe();
-    // } else { this.updateSubscription = interval(2000).subscribe(
-    //   (val) => { this.getResourceByClientId(this.selectedClientId);
-    // }); }
+    if (!this.isAutoRefreshChecked) {
+      this.updateSubscription.unsubscribe();
+    } else { this.updateSubscription = interval(10000).subscribe(
+      (val) => { this.getResourceByClientId(this.selectedClientId);
+    }); }
   }
 
   getResourceByClientId(clientId: number) {
