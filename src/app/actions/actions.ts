@@ -273,25 +273,25 @@ export const LoadNetwork = (cell, resourceModel: ResourceModel) =>
         cell.value = `(${resourceModel.virtualNetwork.addressPrefix})`;
     }
     
-    else if(cell.id == AZURE_SEARCH_IDS[1] && resourceModel.seachService && resourceModel.seachService.status){
+    else if(cell.id == AZURE_SEARCH_IDS[1] && resourceModel.seachService ){
         cell.style = state[resourceModel.seachService.status.toLowerCase() == "running" ? "1" : "0"];
     }
-    else if(cell.id == AZURE_SERVICE_BUS[1] && resourceModel.serviceBus && resourceModel.serviceBus.status){
+    else if(cell.id == AZURE_SERVICE_BUS[1] && resourceModel.serviceBus ){
         cell.style = state[resourceModel.serviceBus.status.toLowerCase() == "active" ? "1" : "0"];
     }
     else if(cell.id == INSIGHT_DB_SERVER[1] && resourceModel.insightsVirtualMachine){
         cell.style = state[resourceModel.insightsVirtualMachine.state];
     }
-    else if(cell.id == DB_SERVER[1] && resourceModel.dbServerVirtualMachine && resourceModel.dbServerVirtualMachine.state){
+    else if(cell.id == DB_SERVER[1] && resourceModel.dbServerVirtualMachine ){
         cell.style = state[resourceModel.dbServerVirtualMachine.state];
     }
-    else if(cell.id == OCTOPUS_SERVER[1] && resourceModel.octopusVirtualMachine && resourceModel.octopusVirtualMachine.state){
+    else if(cell.id == OCTOPUS_SERVER[1] && resourceModel.octopusVirtualMachine ){
         cell.style = state[resourceModel.octopusVirtualMachine.state];
     }
-    else if(cell.id == APP_SERVER[1] && resourceModel.appServerVirtualMachine && resourceModel.appServerVirtualMachine.state){
+    else if(cell.id == APP_SERVER[1] && resourceModel.appServerVirtualMachine ){
         cell.style = state[resourceModel.appServerVirtualMachine.state];
     }
-    else if(cell.id == PRODUCT_APP_SERVER[1] && resourceModel.producerVirtualMachine && resourceModel.producerVirtualMachine.state){
+    else if(cell.id == PRODUCT_APP_SERVER[1] && resourceModel.producerVirtualMachine){
         cell.style = state[resourceModel.producerVirtualMachine.state];
     }
     else if(cell.id == CLAIMS_IDS[0] && resourceModel.claims){
