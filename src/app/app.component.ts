@@ -35,10 +35,10 @@ export class AppComponent implements AfterViewInit, OnInit {
 
   ngOnInit(): void {
      this.getResourceByClientId(parseInt(this.clientIds[0]));
-     this.updateSubscription = interval(8000).subscribe(
-      (val) => {
-        this.getResourceByClientId(this.selectedClientId);
-    });
+    //  this.updateSubscription = interval(8000).subscribe(
+    //   (val) => {
+    //     this.getResourceByClientId(this.selectedClientId);
+    // });
   }
 
   setNetWorkGraph(resourceResponse) {
