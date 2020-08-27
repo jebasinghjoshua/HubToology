@@ -25,7 +25,7 @@ export class AppComponent implements AfterViewInit, OnInit {
   clientIds: string[] = ['1', '2'];
   private updateSubscription: Subscription;
   selectedClientId = 1;
-  isAutoRefreshChecked = true;
+  isAutoRefreshChecked = false;
   graphLoading = false;
 
   constructor(private hubService: HupService) {
@@ -112,11 +112,11 @@ export class AppComponent implements AfterViewInit, OnInit {
 
   autoRefreshOnChange(event) {
     this.isAutoRefreshChecked = !this.isAutoRefreshChecked;
-    if (!this.isAutoRefreshChecked) {
-      this.updateSubscription.unsubscribe();
-    } else { this.updateSubscription = interval(2000).subscribe(
-      (val) => { this.getResourceByClientId(this.selectedClientId);
-    }); }
+    // if (!this.isAutoRefreshChecked) {
+    //   this.updateSubscription.unsubscribe();
+    // } else { this.updateSubscription = interval(2000).subscribe(
+    //   (val) => { this.getResourceByClientId(this.selectedClientId);
+    // }); }
   }
 
   getResourceByClientId(clientId: number) {
